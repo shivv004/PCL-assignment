@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
 }
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-montserrat: Montserrat;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  /* font sizes */
+  --font-size-3xs-7: 0.606rem;
+  --font-size-sm-9: 0.869rem;
+  --font-size-xs-1: 0.694rem;
+  --font-size-25xl-5: 2.781rem;
+  --font-size-8xl: 1.688rem;
+  --font-size-17xl: 2.25rem;
+  --font-size-6xl-1: 1.569rem;
+  --font-size-xl: 1.25rem;
+  --font-size-7xs-7: 0.356rem;
+  --font-size-lgi-5: 1.219rem;
+  --font-size-5xl: 1.5rem;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+  /* Colors */
+  --neutral-white: #fff;
+  --neutral-black: #263238;
+  --color-gainsboro-100: #e8e8e3;
+  --text-gray-300: #d9dbe1;
+  --text-gray-900: #18191f;
+  --color-gray-100: rgba(255, 255, 255, 0.2);
+  --neutral-silver: #f5f7fa;
+  --brand-primary: #4caf4f;
+  --color-forestgreen-100: #339636;
+  --color-forestgreen-200: rgba(76, 175, 79, 0.3);
+  --neutral-grey: #717171;
+  --neutral-d-grey: #4d4d4d;
+  --neutral-l-grey: #88939e;
+  --color-honeydew: #e8f5e9;
+  --color-black: #000;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  /* Gaps */
+  --gap-xl: 1.25rem;
+  --gap-xl-8: 1.3rem;
+  --gap-base-7: 1.044rem;
+  --gap-4xs-3: 0.519rem;
+  --gap-8xl-8: 1.738rem;
+  --gap-xs-1: 0.694rem;
+  --gap-7xs-6: 0.35rem;
+  --gap-6xs-9: 0.431rem;
+  --gap-35xl-3: 3.394rem;
+  --gap-3xl-3: 1.394rem;
+  --gap-15xl-5: 2.156rem;
+  --gap-xl-9: 1.306rem;
+  --gap-53xl-4: 4.525rem;
+  --gap-24xl-9: 2.744rem;
 
-.App-link {
-  color: #61dafb;
-}
+  /* Paddings */
+  --padding-25xl-5: 2.781rem;
+  --padding-25xl-6: 2.788rem;
+  --padding-38xl: 3.563rem;
+  --padding-xl: 1.25rem;
+  --padding-0: 0rem;
+  --padding-6xs-3: 0.394rem;
+  --padding-5xs: 0.5rem;
+  --padding-5xs-5: 0.469rem;
+  --padding-4xs-3: 0.519rem;
+  --padding-11xs-4: 0.088rem;
+  --padding-3xl-2: 1.388rem;
+  --padding-3xl-3: 1.394rem;
+  --padding-81xl-2: 6.263rem;
+  --padding-6xl: 1.563rem;
+  --padding-31xl: 3.125rem;
+  --padding-xs-1: 0.694rem;
+  --padding-7xs-6: 0.35rem;
+  --padding-8xs: 0.313rem;
+  --padding-5xs-1: 0.444rem;
+  --padding-23xl-9: 2.681rem;
+  --padding-3xs-8: 0.613rem;
+  --padding-3xs-7: 0.606rem;
+  --padding-3xl: 1.375rem;
+  --padding-base-7: 1.044rem;
+  --padding-2xs: 0.688rem;
+  --padding-7xs: 0.375rem;
+  --padding-4xs: 0.563rem;
+  --padding-47xl-8: 4.175rem;
+  --padding-81xl: 6.25rem;
+  --padding-24xl: 2.688rem;
+  --padding-xs-2: 0.7rem;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  /* Border radiuses */
+  --br-7xs-6: 5.6px;
+  --br-10xs-8: 2.8px;
+  --br-smi-5: 12.5px;
+  --br-9xs-5: 3.5px;
+  --br-6xs: 7px;
 }

@@ -1,0 +1,50 @@
+.icon {
+  width: 2.825rem;
+  height: 2.438rem;
+  position: relative;
+}
+.national-associations1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 1.566rem;
+}
+.member {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.696rem;
+}
+.our-membership-management {
+  flex: 1;
+  position: relative;
+  line-height: 0.87rem;
+}
+.our-membership-management-soft-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-4xs);
+  font-size: var(--font-size-3xs-7);
+  color: var(--neutral-grey);
+}
+.national-associations {
+  width: 13.438rem;
+  border-radius: 5.57px;
+  background-color: var(--neutral-white);
+  box-shadow: 0 1.4px 2.78px rgba(171, 190, 209, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1.044rem var(--padding-2xs);
+  box-sizing: border-box;
+  gap: 0.348rem;
+  text-align: center;
+  font-size: var(--font-size-lgi-5);
+  color: var(--neutral-d-grey);
+  font-family: var(--font-inter);
+}

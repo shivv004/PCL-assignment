@@ -1,0 +1,128 @@
+.ln-node-icon {
+  height: 18.838rem;
+  width: 19.231rem;
+  position: relative;
+}
+.the-unseen-of,
+.when-joining-the {
+  align-self: stretch;
+  position: relative;
+}
+.the-unseen-of {
+  line-height: 1.914rem;
+  font-weight: 600;
+}
+.when-joining-the {
+  font-size: var(--font-size-3xs-7);
+  line-height: 0.87rem;
+  color: var(--neutral-grey);
+}
+.cosh-node {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.696rem;
+  max-width: 100%;
+}
+.label3 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xs-1);
+  line-height: 1.044rem;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--neutral-white);
+  text-align: center;
+}
+.button3,
+.sinh-node {
+  display: flex;
+  box-sizing: border-box;
+}
+.button3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0.609rem var(--padding-3xl);
+  background-color: var(--brand-primary);
+  width: 6.625rem;
+  border-radius: 2.78px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.button3:hover {
+  background-color: var(--color-forestgreen-100);
+}
+.sinh-node {
+  width: 35.756rem;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-0);
+  gap: 1.392rem;
+  min-width: 28.756rem;
+  max-width: 100%;
+}
+.sqrt-node,
+.unlock,
+.unlock1 {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.unlock1 {
+  width: 73.688rem;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-0) 6.265rem;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.sqrt-node,
+.unlock {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.unlock {
+  overflow-x: auto;
+}
+.sqrt-node {
+  padding: var(--padding-0) var(--padding-0) 0.444rem;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-6xl-1);
+  color: var(--neutral-d-grey);
+  font-family: var(--font-inter);
+  align-self: center;
+}
+@media screen and (max-width: 1000px) {
+  .ln-node-icon,
+  .sinh-node {
+    flex: 1;
+  }
+  .unlock1 {
+    flex-wrap: wrap;
+    padding-left: var(--padding-31xl);
+    padding-right: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 725px) {
+  .sinh-node {
+    min-width: 100%;
+  }
+  .unlock1 {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .the-unseen-of {
+    font-size: var(--font-size-xl);
+    line-height: 1.563rem;
+  }
+}
